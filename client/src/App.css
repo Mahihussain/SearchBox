@@ -9,6 +9,13 @@ body{
   margin-top: 2%;
 }
 
+.App form{
+
+  min-width:250px;
+  margin-left: 9%;
+
+}
+
 .card-product .img-wrap {
   border-radius: 3px 3px 0 0;
   overflow: hidden;
@@ -26,7 +33,13 @@ body{
 .card-product .info-wrap {
   overflow: hidden;
   padding: 15px;
-  height: 120px;
+  height: 200px;
   width: 100%;
   border-top: 1px solid #eee;
+}
+
+.card-product .info-wrap .title{
+  overflow: hidden;
+  max-height: 90px;
+  width: 100%;
 }

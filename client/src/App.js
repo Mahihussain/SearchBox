@@ -111,7 +111,7 @@ class App extends Component {
             <div className="img-wrap"><img src={ child.image_url } alt={child.title} /></div>
             <figcaption className="info-wrap">
                     <h4 className="title">{ child.product_name }</h4>
-                    <div className="price-wrap h5 pl-3 mb-2">
+                    <div className="price-wrap h5 pl-3">
                       <span className="price-new"><b>Price: { child.price }</b></span> 
                     </div> 
             </figcaption> 
