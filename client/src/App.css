@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Roboto');
+
+body{
+  font-family: 'Lato';
+  background-image: url('/2281.jpg');
+}
+.App {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.card-product .img-wrap {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+  position: relative;
+  height: 220px;
+  text-align: center;
+}
+.card-product .img-wrap img {
+  max-height: 100%;
+  max-width: 100%;
+  padding:10px;
+  object-fit: cover;
+}
+
+.card-product .info-wrap {
+  overflow: hidden;
+  padding: 15px;
+  height: 120px;
+  width: 100%;
+  border-top: 1px solid #eee;
+}
